@@ -23,7 +23,7 @@ module.exports = {
             input TaskInput {
               id: Int
               title: String
-              is_completed: Boolean
+              is_completed: Int
             }
           `,
       mutation: {
@@ -45,7 +45,7 @@ module.exports = {
             type: "STRING",
           },
           is_completed: {
-            type: "Number",
+            type: "INTEGER",
           },
         },
       },

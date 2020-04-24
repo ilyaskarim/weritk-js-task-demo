@@ -6,7 +6,7 @@ module.exports = {
     dbDialect: "mysql",
     dbUsername: "root",
     dbPassword: "pass",
-    dbName: "graphql",
+    dbName: "task",
     dbHost: "localhost",
     dbPort: "3306",
   },
